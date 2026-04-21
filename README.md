@@ -210,7 +210,7 @@ Expected response:
 ```json
 {
   "error": "Room cannot be deleted",
-  "reason": "Room 'LIB-301' is currently occupied by 1 active hardware sensor(s). Decommission all sensors before removing the room.",
+  "reason": "Room 'LIB-301' still has 1 active sensor(s). Remove all sensors first.",
   "status": 409
 }
 ```
