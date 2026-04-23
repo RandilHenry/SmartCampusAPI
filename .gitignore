@@ -1,0 +1,14 @@
+# Maven build output — never commit these
+target/
+
+# NetBeans IDE files
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+nb-configuration.xml
+
+# System files
+.DS_Store
+Thumbs.db
